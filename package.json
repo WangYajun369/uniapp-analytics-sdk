@@ -1,0 +1,39 @@
+{
+  "name": "uniapp-analytics-sdk",
+  "version": "1.0.0",
+  "description": "A comprehensive analytics SDK for uniapp supporting H5, Wechat Mini Program, Android APK and iOS App",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'Development mode - use directly via import'",
+    "build": "echo 'No build step required - pure JavaScript SDK'",
+    "test": "node tests/run.js"
+  },
+  "keywords": [
+    "uniapp",
+    "analytics",
+    "tracking",
+    "wechat-mini-program",
+    "h5",
+    "app",
+    "crash-report",
+    "ab-testing"
+  ],
+  "author": "Analytics SDK Team",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "uniapp": {
+    "minRuntimeVersion": "3.0.0",
+    "plugins": {}
+  }
+}
